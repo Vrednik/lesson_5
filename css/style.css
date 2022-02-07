@@ -1,0 +1,113 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700;900&display=swap');
+
+.wrapper{
+    max-width: 1200px;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.figma{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    color: red;
+}
+
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.title{
+    padding: 50px 0;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+}
+
+.text{
+    padding: 30px 0 0 0;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
+.container__motion{
+    text-align: center;
+}
+
+.motion__content{
+    padding: 30px 50px 0 50px;
+    display: inline-block;
+}
+
+.motion__content-text{
+    width: 150px;
+    padding-top: 15px;
+}
+.motion__advice{
+    text-align: center;
+}
+
+.text__advice{
+    font-size: 20px;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+.text__advice-info{
+    padding-bottom: 30px;
+}
+
+
+.subtitle-sm{
+    padding: 50px 0 25px 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: darkgreen;
+}
+
+.text__advice-info-item{
+    overflow: scroll;
+    height: 150px;
+}
+
+.text__advice-info-list{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.interesting{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.block__interesting{
+    display: inline-block;
+    max-width: 350px;
+    height: 400px;
+    background-color: khaki;
+    margin: 0 50px;
+}
+
+.block__interesting img{
+    max-width: 350px;
+}
+
+.block__interesting .subtitle-sm, 
+.interesting__link-text{
+    padding: 10px;
+}
